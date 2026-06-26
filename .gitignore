@@ -1,0 +1,14 @@
+# Ne pas envoyer les identifiants de la base de données
+api/config.php
+.env
+
+# Ne pas envoyer les photos uploadées par les utilisateurs du CMS
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Fichiers système ou de configuration d'IDE
+.DS_Store
+.vscode/
+
+# Ne pas envoyer les fichiers techniques
+technique/*
